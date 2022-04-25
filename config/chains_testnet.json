@@ -305,5 +305,65 @@
       "transaction_path": "/tx/{tx}"
     },
     "image": "/logos/chains/testnet/kava.png"
+  },
+  {
+    "id": "aurora",
+    "title": "Aurora Testnet",
+    "short_name": "ARR",
+    "chain_id": 1313161555,
+    "provider_params": [
+      {
+        "chainId": "0x4E454153",
+        "chainName": "Aurora Testnet",
+        "rpcUrls": ["https://testnet.aurora.dev/"],
+        "nativeCurrency": {
+          "name": "Testnet Aurora Ether",
+          "symbol": "ETH",
+          "decimals": 18
+        },
+        "blockExplorerUrls": ["https://testnet.aurorascan.dev/"]
+      }
+    ],
+    "explorer": {
+      "name": "Aurora Explorer",
+      "url": "https://testnet.aurorascan.dev/",
+      "icon": "/logos/explorers/aurora.png",
+      "block_path": "/block/{block}",
+      "address_path": "/address/{address}",
+      "contract_path": "/token/{address}",
+      "contract_0_path": "/address/{address}",
+      "transaction_path": "/tx/{tx}"
+    },
+    "image": "/logos/chains/testnet/aurora.png"
+  },
+  {
+    "id": "harmony",
+    "title": "Harmony Testnet",
+    "short_name": "HMNY",
+    "chain_id": 1666700000,
+    "provider_params": [
+      {
+        "chainId": "0x6357D2E0",
+        "chainName": "Harmony Testnet",
+        "rpcUrls": ["https://api.s0.b.hmny.io"],
+        "nativeCurrency": {
+          "name": "Testnet One",
+          "symbol": "ONE",
+          "decimals": 18
+        },
+        "blockExplorerUrls": ["https://explorer.pops.one/"]
+      }
+    ],
+    "explorer": {
+      "name": "Harmony",
+      "url": "https://explorer.pops.one/",
+      "icon": "/logos/explorers/harmony.png",
+      "block_path": "/block/{block}",
+      "address_path": "/address/{address}",
+      "contract_path": "/token/{address}",
+      "contract_0_path": "/address/{address}",
+      "transaction_path": "/tx/{tx}"
+    },
+    "image": "/logos/chains/testnet/harmony.png"
   }
 ]
