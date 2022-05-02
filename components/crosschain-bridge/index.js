@@ -584,11 +584,7 @@ export default function CrosschainBridge() {
       const multicallAddress = getDeployedMulticallContract(chain_id)?.address
 
       if (!balances_data?.[chain_id]) {
-<<<<<<< HEAD
-        if (multicallAddress && ![1666600000, 1666700000].includes(chain_id)) {
-=======
         if (multicallAddress && ![1666600000, 1666700000, 1313161554, 1313161555].includes(chain_id)) {
->>>>>>> Locally Working Commit
           getChainTokenMulticall(chain_id, contracts?.filter(c => c.contract_address !== constants.AddressZero))
           contracts.filter(c => c.contract_address === constants.AddressZero).forEach(c => getChainTokenRPC(chain_id, c))
         }
