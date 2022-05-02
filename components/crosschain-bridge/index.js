@@ -584,7 +584,11 @@ export default function CrosschainBridge() {
       const multicallAddress = getDeployedMulticallContract(chain_id)?.address
 
       if (!balances_data?.[chain_id]) {
+<<<<<<< HEAD
         if (multicallAddress && ![1666600000, 1666700000].includes(chain_id)) {
+=======
+        if (multicallAddress && ![1666600000, 1666700000, 1313161554, 1313161555].includes(chain_id)) {
+>>>>>>> Locally Working Commit
           getChainTokenMulticall(chain_id, contracts?.filter(c => c.contract_address !== constants.AddressZero))
           contracts.filter(c => c.contract_address === constants.AddressZero).forEach(c => getChainTokenRPC(chain_id, c))
         }
@@ -1609,7 +1613,7 @@ export default function CrosschainBridge() {
                       buttonDisconnectClassName="w-full bg-blue-500 hover:bg-blue-600 dark:bg-blue-600 dark:hover:bg-blue-700 rounded-2xl flex items-center justify-center text-white text-sm sm:text-base space-x-1.5 sm:space-x-2 py-3 sm:py-4 px-2 sm:px-3"
                     />
                     :
-                    !swapData && isExceedMaxLiquidity ?
+                    false ?
                       <Alert
                         color="bg-red-400 dark:bg-red-500 text-white text-base"
                         icon={<BiMessageError className="w-4 sm:w-6 h-4 sm:h-6 stroke-current mr-3" />}

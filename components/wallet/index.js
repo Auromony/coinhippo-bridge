@@ -29,6 +29,7 @@ const providerOptions = {
         2001: 'https://rpc.c1.milkomeda.com:8545',
         288: 'https://mainnet.boba.network',
         1666600000: 'https://api.harmony.one',
+        1666700000: 'https://api.s0.b.hmny.io',
         192837465: 'https://mainnet.gather.network',
         25: 'https://evm.cronos.org',
         9001: 'https://eth.bd.evmos.org:8545',
@@ -43,6 +44,7 @@ const providerOptions = {
         43113: 'https://api.avax-test.network/ext/bc/C/rpc',
         4002: 'https://rpc.testnet.fantom.network',
         1287: 'https://rpc.api.moonbase.moonbeam.network',
+        1313161555: 'https://testnet.aurora.dev/'
       },
     },
     display: {
@@ -80,7 +82,8 @@ const chainIdToNetwork = chain_id => {
     // 122: 'fuse',
     // 2001: 'milkomeda',
     // 288: 'boba',
-    // 1666600000: 'harmony-one',
+    1666600000: 'harmony-one',
+    1666700000: 'harmony-testnet',
     // 192837465: 'gather',
     25: 'cronos',
     // 9001: 'evmos',
@@ -90,6 +93,7 @@ const chainIdToNetwork = chain_id => {
     42: 'kovan',
     80001: 'mumbai',
     421611: 'arbitrum-rinkeby',
+    1313161555: 'aurora-testnet'
   }[chain_id]
 }
 

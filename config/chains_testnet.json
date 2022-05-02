@@ -315,13 +315,13 @@
       {
         "chainId": "0x4E454153",
         "chainName": "Aurora Testnet",
-        "rpcUrls": ["https://testnet.aurora.dev/"],
+        "rpcUrls": ["https://testnet.aurora.dev"],
         "nativeCurrency": {
           "name": "Testnet Aurora Ether",
           "symbol": "ETH",
           "decimals": 18
         },
-        "blockExplorerUrls": ["https://testnet.aurorascan.dev/"]
+        "blockExplorerUrls": ["https://testnet.aurorascan.dev"]
       }
     ],
     "explorer": {
@@ -351,7 +351,7 @@
           "symbol": "ONE",
           "decimals": 18
         },
-        "blockExplorerUrls": ["https://explorer.pops.one/"]
+        "blockExplorerUrls": ["https://explorer.pops.one"]
       }
     ],
     "explorer": {
