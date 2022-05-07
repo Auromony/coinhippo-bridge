@@ -44,7 +44,8 @@ const providerOptions = {
         43113: 'https://api.avax-test.network/ext/bc/C/rpc',
         4002: 'https://rpc.testnet.fantom.network',
         1287: 'https://rpc.api.moonbase.moonbeam.network',
-        1313161555: 'https://testnet.aurora.dev/'
+        1313161554: 'https://mainnet.aurora.dev',
+        1313161555: 'https://testnet.aurora.dev'
       },
     },
     display: {
@@ -82,7 +83,7 @@ const chainIdToNetwork = chain_id => {
     // 122: 'fuse',
     // 2001: 'milkomeda',
     // 288: 'boba',
-    1666600000: 'harmony-one',
+    1666600000: 'harmonyone',
     1666700000: 'harmony-testnet',
     // 192837465: 'gather',
     25: 'cronos',
@@ -93,6 +94,7 @@ const chainIdToNetwork = chain_id => {
     42: 'kovan',
     80001: 'mumbai',
     421611: 'arbitrum-rinkeby',
+    1313161554: 'aurora',
     1313161555: 'aurora-testnet'
   }[chain_id]
 }

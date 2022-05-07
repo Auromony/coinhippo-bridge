@@ -187,6 +187,11 @@
         "chain_id": 9001,
         "contract_decimals": 6,
         "symbol": "madUSDC"
+      },
+      {
+        "contract_address": "0xb12bfca5a55806aaf64e99521918a4bf0fc40802",
+        "chain_id": 1313161554,
+        "contract_decimals": 6
       }
     ],
     "nomad_support": [
